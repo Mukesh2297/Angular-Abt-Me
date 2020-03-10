@@ -1,0 +1,34 @@
+h2
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parent
+{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.abt-content
+{
+    height: 300px;
+    width: 700px;
+    justify-content: center;
+}
+
+
+.abt
+{
+    font-size: 4em;
+    font-family: 'Exo',sans-serif;
+}
+
+.myself
+{
+    font-size: 8em;
+    font-family: 'lobster',cursive;
+}
