@@ -1,0 +1,30 @@
+
+h1,h2,.contact-Info
+{
+    color: darkgrey;
+    margin-left: 20px;
+}
+
+.container
+{
+    height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: white;
+    box-shadow: none;
+    color: rosybrown;
+}
+
+.contact-Me
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
