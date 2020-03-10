@@ -1,8 +1,21 @@
 
-h1,h2,.contact-Info
+h1,.contact-Info
 {
     color: darkgrey;
     margin-left: 20px;
+}
+
+h2
+{
+    font-size: 4em;
+    color: darkgrey;
+    font-family: 'lobster',cursive;
+}
+
+.logo
+{
+    margin-top: 10px;
+    margin-left: 25px;
 }
 
 .container

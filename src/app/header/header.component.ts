@@ -13,7 +13,6 @@ export class HeaderComponent implements OnInit {
   constructor(public AppServices:AppService)
   {
     this.contactInfo = AppServices.contactInfo;
-    console.log(this.contactInfo);
     
   }
 
@@ -22,7 +21,8 @@ export class HeaderComponent implements OnInit {
 
   contactMe()
   {
-    this.contactInfo=true;
+    this.AppServices.contactMe();
+    this.contactInfo = this.AppServices.contactInfo;
     
   }
 

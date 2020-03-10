@@ -1,9 +1,17 @@
+/*styles for parent1 block starts here*/
+
 h2
 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.parent
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.parent1
 {
     height: 500px;
     display: flex;
@@ -32,3 +40,31 @@ h2
     font-size: 8em;
     font-family: 'lobster',cursive;
 }
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+/*styles for parent2 block starts here*/
+
+.parent2
+{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    color: darkgrey;
+    justify-content: center;
+}
+
+.project-content-container
+{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    color: darkgrey;
+    justify-content: center;
+
+}
+

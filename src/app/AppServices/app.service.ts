@@ -8,4 +8,10 @@ export class AppService {
   contactInfo:boolean = false;
 
   constructor() { }
+  
+  contactMe()
+  {
+    this.contactInfo=true;
+    
+  }
 }
