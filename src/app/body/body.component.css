@@ -60,11 +60,44 @@ p
 
 .project-content-container
 {
-    height: 500px;
+    height: 750px;
     display: flex;
     flex-wrap: wrap;
     color: darkgrey;
     justify-content: center;
 
+}
+
+.btn-link
+{
+    font-size: 1em;
+}
+
+.projects-header h2
+{
+    font-family: 'Comfortaa',cursive;
+    font-size: 3.5em;
+}
+
+.projects-content p
+{
+    font-family: 'Comfortaa',cursive;
+    font-size: 1.5em;
+}
+
+.coding-structure-header
+{
+    width: 400px;
+    font-size: x-large;
+    font-family: 'Exo',sans-serif;
+    color: rosybrown;
+    margin-left: 150px;
+}
+
+.img-parent
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 
