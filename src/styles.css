@@ -3,6 +3,20 @@
 body
 {
 
+overflow: hidden;
 background: -webkit-linear-gradient(left, rgba(5, 5, 5, 0.945) 0%,rgba(0, 0, 0, 0.849) 100%);
 
+}
+
+.primary-container
+{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+div #container, #parent1, #projectinfo-container, #parent3
+{
+    scroll-snap-align: center;
 }

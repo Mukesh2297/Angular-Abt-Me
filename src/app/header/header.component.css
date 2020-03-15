@@ -12,20 +12,57 @@ h2
     font-family: 'lobster',cursive;
 }
 
+
 .logo
 {
     margin-top: 10px;
     margin-left: 25px;
 }
 
-.container
+#container
 {
-    height: 10px;
+    height: 100vh;
+}
+
+.container img
+{
+    top: 0;
+    margin-left: -100px;
+    margin-bottom: -50px;
+}
+
+.container1
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: white;
+   
     
+}
+
+.nav-items
+{
+    width: 1000px;
+    height: 50px;
+    margin-top: -60px;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    border: 1px solid rosybrown;
+    background: transparent;
+}
+
+.nav-items a
+{
+    text-decoration: none;
+    padding: 12px;
+}
+
+.nav-items a:hover
+{
+    color: rosybrown;
+
 }
 
 .btn-primary-outline {
@@ -40,4 +77,159 @@ h2
     display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
+}
+
+/*styles for parent1 block starts here*/
+
+h2
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+#parent1
+{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.abt-content
+{
+    height: 300px;
+    width: 700px;
+    justify-content: center;
+}
+
+.abt-content h2
+{
+    color: #333333;
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+
+
+.abt
+{
+    font-size: 4em;
+    font-family: 'Exo',sans-serif;
+}
+
+.myself
+{
+    font-size: 8em;
+    font-family: 'lobster',cursive;
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: white;
+    box-shadow: none;
+    color: rosybrown;
+}
+
+/*styles for parent2 block starts here*/
+
+#projectinfo-container
+{
+
+    height: 100vh;
+
+}
+
+.parent2
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: darkgrey;
+    justify-content: center;
+}
+
+.project-content-container
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    color: darkgrey;
+    justify-content: center;
+
+}
+
+.btn-link
+{
+    font-size: 1em;
+}
+
+.projects-header h2
+{
+    font-family: 'Comfortaa',cursive;
+    font-size: 2.5em;
+}
+
+.projects-content p
+{
+    font-family: 'Comfortaa',cursive;
+    font-size: 1.5em;
+}
+
+.coding-structure-header
+{
+    width: 400px;
+    font-size: x-large;
+    font-family: 'Exo',sans-serif;
+    color: rosybrown;
+    margin-left: 150px;
+}
+
+.img-parent
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+
+/*styles for parent3 block starts here*/
+
+#parent3
+{
+    height: 100vh;
+    background-color: white;
+}
+
+.footer-heading
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-heading h2
+{
+    font-size: 3em;
+    font-family: 'Exo',sans-serif; 
+    color: #333333;
+}
+
+.footer-elements
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.socialmedia-elements
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
 }

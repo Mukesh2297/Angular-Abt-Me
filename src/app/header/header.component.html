@@ -1,33 +1,136 @@
-<img class="logo" src="../../assets/M-Logo.png" height="50px" width="50px">
-<div class="container">
-    <div class="nav-items"><button class="btn btn-link">CODE SHOP</button></div>
-    <div class="nav-items"><button class="btn btn-link">PORTFOLIO</button></div>
-    <div class="nav-items"><a class="btn btn-link" href="../../assets/MUKESH R.pdf" download="MUKESH R.pdf">RESUME</a>
-    </div>
-    <div class="nav-items"><button class="btn btn-link">CONTACT</button></div>
-</div>
-
-<br><br><br>
-
-<h1 style="font-family: freight-display-pro;"><b>Frontend Developer</b></h1>
-
-<br>
-
-<div class="contact-Me">
-    <div class="contact-Btn">
-        <button class="btn btn-primary-outline" (click)="contactMe()">CONTACT ME</button>
+<div class="primary-container">
+<div id="container">
+    <img class="logo" src="../../assets/M-Logo.png" height="50px" width="50px">
+    <div class="container1">
+        <div class="nav-items">
+            <a class="btn btn-link" href="#container">HOME</a>
+            <a class="btn btn-link" href="#parent1">ABOUT</a>
+            <a class="btn btn-link" href="#projectinfo-container">PROJECTS</a>
+            <a class="btn btn-link" href="#parent3">ENQUIRE</a>
+            <a class="btn btn-link" href="../../assets/MUKESH R.pdf" download="MUKESH R.pdf">RESUME</a>
+            <a class="btn btn-link">CONTACT</a>
+        </div>
     </div>
 
-</div>
+    <br><br><br>
 
-<br>
-<div class="contact-Info" *ngIf="contactInfo" style="font-size:medium;">
+    <h1 style="font-family: freight-display-pro;"><b>Frontend Developer</b></h1>
+
     <br>
-    <i>Name: </i><b> &nbsp; Mukesh</b> <br>
-    <i>Email:</i><a class="btn btn-link" href="mukesh.rajasekar@gmail.com">mukesh.rajasekar@gmail.com</a> <br>
-    <i>Ph No: </i><b> &nbsp;9677078400</b> <br>
-    <i>LinkedIn:</i><a class="btn btn-link" href="https://www.linkedin.com/in/mukesh-rajasekar-baa7b7179/"
-        target="_blank">Mukesh Raj</a><br>
+
+    <div class="contact-Me">
+        <div class="contact-Btn">
+            <button class="btn btn-primary-outline" (click)="contactMe()">CONTACT ME</button>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="contact-Info" *ngIf="contactInfo" style="font-size:medium;">
+        <br>
+        <i>Name: </i><b> &nbsp; Mukesh</b> <br>
+        <i>Email:</i><a class="btn btn-link" href="mukesh.rajasekar@gmail.com">mukesh.rajasekar@gmail.com</a> <br>
+        <i>Ph No: </i><b> &nbsp;9677078400</b> <br>
+        <i>LinkedIn:</i><a class="btn btn-link" href="https://www.linkedin.com/in/mukesh-rajasekar-baa7b7179/"
+            target="_blank">Mukesh Raj</a><br>
+
+    </div>
+</div>
+
+<!-------Body Section 1 to display about myself-------->
+
+<div id="parent1">
+    <div class="abt-myself-heading">
+        <span class="abt">About</span> &nbsp;
+        <span class="myself">Myself</span>
+    </div>
+    <div class="abt-content">
+
+        <h2><i>My Passion and focus is Frontend Development</i></h2>
+        <p>
+            I am a Mechanical Engineering graduate who began to develop interest in the Software Development,
+            but i don't know what would be my area of interest as a future software developer
+            (as there are tons of things to explore).
+            <br><br>
+            Joined a corporate where i worked in <i>Web Development</i>, and here i am now developing websites
+            as well as freelancing.
+            <br><br>
+            We all need a good website to show us who we are across globe and if you need my help in developing
+            responsive websites, feel free to<a class="btn btn-link" href="https://www.google.com/">CONTACT ME</a>.
+        </p>
+
+    </div>
 
 </div>
-<br>
+
+<!-------Body Section 2 to share my project information-------->
+
+<div id="projectinfo-container">
+    <div class="parent2">
+        <div class="projects-header">
+            <br><br>
+            <h2> Frontend Projects </h2>
+        </div>
+    </div>
+    <br>
+    <div class="project-content-container">
+        <div class="projects-content">
+            <p>
+                Sorry!! I can't show you the projects which i developed for my current employer(highly secured),<br>
+                but i can show you the custom projects!!
+                You can view it in below github account<br><br>
+
+                GITHUB ACCOUNT :<a class="btn btn-link" href="https://github.com/Mukesh2297">MUKESH2297</a><br><br>
+            </p>
+            <br>
+
+        </div>
+        <ng-container class="img-parent">
+            <div class="coding-structure-header">
+                <h3>MY CODING STRUCTURE</h3>
+            </div>
+            <div class="img-childs">
+                <img src="../../assets/Left.png" height="250px" width="425px">&nbsp;
+                <img src="../../assets/Centre.png" height="250px" width="425px">&nbsp;
+                <img src="../../assets/Right.png" height="250px" width="425px">&nbsp;
+            </div>
+
+        </ng-container>
+
+    </div>
+</div>
+
+
+<!-------Body Section 3 for Enquire and Contact info-------->
+
+<div id="parent3">
+
+    <div class="footer-heading">
+        <div class="let-me-build">
+            <br><br>
+            <h2>Let me build the website you need!</h2>
+        </div>
+    </div>
+
+    <div class="footer-elements">
+        <div class="home"><a class="btn btn-link" href=".container">HOME</a></div>
+        <div class="contact"><a class="btn btn-link">CONTACT</a></div>
+        <div class="resume"><a class="btn btn-link" href="../../assets/MUKESH R.pdf" download="MUKESH R.pdf">RESUME</a>
+        </div>
+
+    </div>
+
+    <div class="socialmedia-elements">
+        <div class="facebook"><a class="fa fa-facebook" href="https://www.facebook.com/mukesh.raj.942"
+                target="_blank"></a></div> &nbsp;&nbsp;
+        <div class="instagram"><a class="fa fa-instagram" href="https://www.instagram.com/mukesh___raj__/"
+                target="_blank"></a></div>&nbsp;&nbsp;
+        <div class="linkedin"><a class="fa fa-linkedin" href="https://www.linkedin.com/in/mukesh-rajasekar-baa7b7179/"
+                target="_blank"></a></div>&nbsp;&nbsp;
+
+
+    </div>
+
+</div>
+
+</div>
